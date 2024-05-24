@@ -1,13 +1,15 @@
 .shop-title{
     margin-top: 10px;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .products{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 3fr 3fr;
 }
 
 .product{
