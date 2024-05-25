@@ -8,7 +8,7 @@ Antes de começar, certifique-se de ter o Node.js instalado em seu sistema. Se v
 
 1. Clone este repositório para seu ambiente:
 ~~~node 
-git clone https://github.com/Ju4nDev/react-shoppingcart
+git clone https://github.com/Ju4nDev/react-shoppingcart.git
 ~~~
 
 2. Use o seguinte comando:
