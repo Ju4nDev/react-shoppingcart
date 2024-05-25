@@ -36,7 +36,7 @@ export default function ShopProvider({ children }) {
     }
     
     //METODO PARA REMOVER DO CARRINHO
-    const removeToCart = (itemId) => {
+    const removeFromCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}))
     }
 
@@ -45,7 +45,7 @@ export default function ShopProvider({ children }) {
         setCartItems((prev) => ({...prev, [itemId]: newAmount}))
     }
 
-    const contextValues = {cartItems, addToCart, removeToCart, updateCartItemCount, getTotalCartAmount};
+    const contextValues = {cartItems, addToCart, removeFromCart, updateCartItemCount, getTotalCartAmount};
 
     return(
         <ShopContext.Provider value={contextValues}>{children}</ShopContext.Provider>
