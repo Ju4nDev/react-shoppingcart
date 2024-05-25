@@ -78,6 +78,11 @@ Pasta onde se localiza nossos contextos. Eles são responsáveis por compartilha
 Diferente da "components", esta pasta guarda todos os componentes renderizáveis do projeto. Ou seja, todos aqueles que serão acessados somente em determinada rota.
 
 
+### `styles`
+
+Pasta onde se localiza as estilizações dos nossos componentes.
+
+
 ________________________________________________________________________________________________________________________________________________
 
 ## Arquivos fundamentais do nosso projeto
